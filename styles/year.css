@@ -18,21 +18,61 @@
   justify-content: center;
   align-items: center;
   margin: 50px 140px;
-}
-
-h3 span{
-  font-weight: 32px;
   font-size: medium;
   color:#FFFFFF;
   text-align: center;
   justify-content: center;
   gap: 140px;
-}
-h1{
   font-size: 72px;
-  font-weight: 630px;
   color: #FFFFFF;
   text-align: center;
   justify-content: center;
 }
+.Paragraph{
+  text-align: center;
+  color: #FF0000;
+  font-size: medium;
+  justify-content: space-between;
+  justify-items: center;
+  }
+.Off{
+  font-size:100px;
+}
+.Holi{
+  font-size: medium;
+  font-weight: 24px;
+}
+  .bold{
+    font-weight: bold;
+    color: #070211;
+    font-size: 48px;
+  }
+  
+.Container{
+  font-size: 64px;
+}
+.Paragraph-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 200px;
+  background-image:url('../images/Vectorrr.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+}
+
+ li{
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #FF0000;
+  background-size: cover;
+  width: 1320px;
+  height: 482px;
+  }
+
 
