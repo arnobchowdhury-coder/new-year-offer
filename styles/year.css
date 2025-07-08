@@ -1,0 +1,38 @@
+
+.normal{
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* header styles */
+.Year{
+  background-image: url('../images/Banner\ Image.png');
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  width: 1320px;
+  height: 600px;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 140px;
+}
+
+h3 span{
+  font-weight: 32px;
+  font-size: medium;
+  color:#FFFFFF;
+  text-align: center;
+  justify-content: center;
+  gap: 140px;
+}
+h1{
+  font-size: 72px;
+  font-weight: 630px;
+  color: #FFFFFF;
+  text-align: center;
+  justify-content: center;
+}
+
