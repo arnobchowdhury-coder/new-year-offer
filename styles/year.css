@@ -265,6 +265,101 @@ span{
   justify-content: center;
   display: flex;
 }
+.main-sixth{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+.sixth-all h1{
+  font-size: 2.5em;
+  color:#070211;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.sixth-all p{
+  margin-bottom: 30px;
+}
+.sixth-btn{
+  display: flex;
+  gap: 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+.sixth-btn input{
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  border: none;
+  padding: 20px 30px;
+  
+  
+}
+.sixth-btn input[type="email"]{
+  color: red;
+}
+.sixth-btn input[type="button"]{
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: tomato;
+  color: white;
+  font-weight: 700;
+  
+}
+footer{
+  background-color: #070211;
+  max-width: 100%;
+}
+.foot-allpart{
+  padding-top: 60px;
+  width: 60%;
+  margin: auto;
+  color: white;
+}
+.foot-allpart h1{
+  font-size: 1.8em;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+.f-all1{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+.f-all p{
+  font-size: 20px;
+  padding: 5px 0;
+}
+.f-all2{
+  width: 60%;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.foot-allpart hr{
+  background-color: gray;
+  padding: 1px;
+}
+.f-all3{
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+.f-all3 p{
+  font-size: 20px;
+}
+.foot-end{
+  text-align: center;
+  font-size: 1.5em;
+  padding-bottom: 50px;
+}
 
   
 
