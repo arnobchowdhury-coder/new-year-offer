@@ -1,4 +1,12 @@
-
+*{
+  padding: 0;
+  margin: 0;
+}
+/* body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
 .normal{
   font-family: "Merriweather", serif;
   font-optical-sizing: auto;
@@ -9,24 +17,28 @@
 
 /* header styles */
 .Year{
-  background-image: url('../images/Banner\ Image.png');
+  /* background-image: url('../images/Banner\ Image.png'); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/BannerImage.png');
   background-repeat: no-repeat;
   border-radius: 16px;
   width: 1320px;
   height: 600px;
   gap: 50px;
-  justify-content: center;
-  align-items: center;
-  margin: 50px 140px;
   font-size: medium;
   color:#FFFFFF;
-  text-align: center;
-  justify-content: center;
   gap: 140px;
-  font-size: 72px;
   color: #FFFFFF;
   text-align: center;
+  margin: 0 auto;
   justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Party{
+  font-size: 72px;
+  display: flex;
+  font-weight: 400px;
 }
 .Paragraph{
   text-align: center;
@@ -34,6 +46,8 @@
   font-size: medium;
   justify-content: space-between;
   justify-items: center;
+  border: 1px solid red;
+  
   }
 .Off{
   font-size:100px;
@@ -53,8 +67,8 @@
 }
 .Paragraph-container{
   display: flex;
-  justify-content: space-between;
-  margin: 0 35px 0 200px;
+  align-items: center;
+  margin:126px 298px;
   background-image:url('../images/Vectorrr.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -62,17 +76,20 @@
   width: 1320px;
   height: 600px;
   border-radius: 16px;
+  padding: 126px;
 }
 
- li{
-  text-decoration: none;
-  list-style: none;
+ .Fith{
   display: flex;
   justify-content: center;
-  background-color: #FF0000;
-  background-size: cover;
-  width: 1320px;
-  height: 482px;
-  }
+  background-color:pink;
+  margin:auto;
+  padding:140px;
+  border-radius: mixed;
+}
+li{
+  text-decoration: none;
+  list-style:none;
+}
 
 
