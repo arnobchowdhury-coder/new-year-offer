@@ -1,13 +1,14 @@
 *{
-  padding: 0;
-  margin: 0;
+  padding:0;
+  margin:0;
 }
 /* body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 } */
-.normal{
+
+.merriweather-normal {
   font-family: "Merriweather", serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -29,7 +30,7 @@
   gap: 140px;
   color: #FFFFFF;
   text-align: center;
-  margin: 0 auto;
+  margin:0px auto;
   justify-content: center;
   display: flex;
   flex-direction: column;
@@ -47,7 +48,7 @@
   justify-content: space-between;
   justify-items: center;
   border: 1px solid red;
-  
+  padding: 48px auto;
   }
 .Off{
   font-size:100px;
@@ -68,28 +69,70 @@
 .Paragraph-container{
   display: flex;
   align-items: center;
-  margin:126px 298px;
+  margin:10px 0px 120px;
   background-image:url('../images/Vectorrr.png');
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   color: #FFFFFF;
   width: 1320px;
   height: 600px;
   border-radius: 16px;
-  padding: 126px;
+  padding:120px;
+  gap: 24px;
+  
 }
 
  .Fith{
-  display: flex;
+  text-align: center;
   justify-content: center;
-  background-color:pink;
-  margin:auto;
-  padding:140px;
-  border-radius: mixed;
+  flex-direction: column;
+  background-color:papayawhip;
+  margin-left: 290px;
+  margin-right: 140px;
+  padding: 140px;
+  border-radius:16px;
+  background-size: cover;
+  background-position: center;
+ 
 }
 li{
   text-decoration: none;
   list-style:none;
+  font-size:32px;
+  font-weight:700px;
+  margin: 10px;
+  padding: 10px;
+  color: #070211;
 }
-
+li span{
+  color: #FF0000;
+}
+.Join{
+  background-color: #070211;
+  font-weight: bold;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.Red-Join{
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+.Offer{
+  display:inline;
+  font-size: 48px;
+  gap: 20px;
+  }
+span{
+ color:#FF0000 ; 
+ font-size: 24px;
+}
+.Abba{
+  display: flex;
+  justify-items: center;
+}
 
